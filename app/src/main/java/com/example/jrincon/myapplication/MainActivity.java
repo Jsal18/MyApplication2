@@ -1,3 +1,4 @@
+
 package com.example.jrincon.myapplication;
 
 import android.os.Bundle;
@@ -28,6 +29,11 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     *
+     * @param menu
+     * @return
+     */
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
